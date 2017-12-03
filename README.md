@@ -8,7 +8,7 @@ For every profile the tool will ask you whether you know if it is a male, female
 
 ### Getting Started
 ```bash
-1. git clone git clone https://github.com/timgrossmann/InstaPy-sex-classification.git
+1. git clone https://github.com/timgrossmann/InstaPy-sex-classification.git
 2. cd InstaPy-sex-classification
 3. pip install .
 or
