@@ -1,7 +1,7 @@
 # InstaPy-sex-classification
 
 In order to be able to add a general sex classification to InstaPy (even if you don't have a Business Account), we are evaluating some machine learning techniques to test if there is a possibility that we can classify profiles by their sex only given their way of writing a bio, the descriptions on their posts and some other features.    
-Therefore we need a lot of data, this tool gives you an easy way to browse profiles based tags.   
+Therefore we need a lot of data, this tool gives you an easy way to browse profiles based on tags.   
 For every profile the tool will ask you whether you know if it is a male, female or not defineble person (like business pages, e.g. Bike shops)
 
 > There will be a part about the tested approaches added once we have more data and can get some insights.
