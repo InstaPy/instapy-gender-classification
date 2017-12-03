@@ -28,6 +28,16 @@ e.g.
 python classify_profiles.py fun good car shoes nature food
 ```
 
+### How to classify?
+There are 3 classes:
+- `m` (male)
+- `f` (female)
+- `x` (not defined)
+
+When the script asks you to enter the sex of the profile, choose one of the above mentioned letters.
+
+> Note: the letter `x` is meant to be used for e.g. shops and other business that definitely don't have any gender.
+I came across a bike shop. This definitely is profile that should be classified with an `x`.
 
 ### Contributing your classifications
 Your gathered data is important! This is the key outcome of this tool which will help us build a AI model that can predict the sex of a person based on it's profile page.
