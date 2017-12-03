@@ -32,7 +32,7 @@ python classify_profiles.py fun good car shoes nature food
 ### Contributing your classifications
 Your gathered data is important! This is the key outcome of this tool which will help us build a AI model that can predict the sex of a person based on it's profile page.
 
-There will be a `logs` folder created. The content of the `logs` folder represents the by you classified profiles.
-Please send me an email to contact.timgrossmann@gmail.com with all of the json files you have in your logs folder.
+The content of the `logs` folder represents the by you classified profiles.
+Please send me an email to contact.timgrossmann@gmail.com with all of the json files you have in your `logs` folder.
 
 ##### Thank you very much for contributing to InstaPy!
