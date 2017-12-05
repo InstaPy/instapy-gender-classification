@@ -21,6 +21,7 @@ def get_usernames_from_tag(tag):
     return usernames
 
   except Exception as err:
+    print('{0} - This account was not classified...'.format(str(err)))
     return []
 
 def extract_information(browser, username):
@@ -29,7 +30,7 @@ def extract_information(browser, username):
     profile_url = 'https://www.instagram.com/{0}'.format(username)
     browser.get(profile_url)
 
-    sex = input('Please enter sex:')
+    sex = raw_input('Please enter sex:')
     print(sex)
 
     profile = requests.get('{0}{1}'.format(profile_url, '/?__a=1')).json()
@@ -58,4 +59,5 @@ def extract_information(browser, username):
     return information
 
   except Exception as err:
+    print('{0} - This account was not classified...'.format(str(err)))
     return {}
