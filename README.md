@@ -17,6 +17,8 @@ or
 4. Download ```chromedriver``` for your system [from here](https://sites.google.com/a/chromium.org/chromedriver/downloads). And put it in ```/assets``` folder (create the folder if not there).
 
 ### Starting the tool
+> Please make sure to use python2
+
 Once you've installed the dependencies and put the chromedriver in the assets folder you can simply start the tool by moving there with the command line. (After you've installed everything, you should already be in the right directory)
 
 ```bash
