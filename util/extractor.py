@@ -60,7 +60,7 @@ def extract_information(browser, username):
             sex = msvcrt.getwch()
             print('')
         else:
-            sex = raw_input('Please enter sex:')
+            sex = input('Please enter sex:')
             print('')
         # print(sex)
 
