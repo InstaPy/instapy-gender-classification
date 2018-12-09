@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a01946-4c10-4b0b-8323-babdb52fad13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sendData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,16 +43,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="316" />
+          <entry key="md" value="318" />
           <entry key="py" value="4403" />
           <entry key="sendData" value="74" />
-          <entry key="txt" value="14" />
+          <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="316" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Markdown" value="318" />
+          <entry key="PLAIN_TEXT" value="47" />
           <entry key="Python" value="4477" />
         </counts>
       </usages-collector>
@@ -78,12 +76,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="552">
-                <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+              <first_editor relative-caret-position="603">
+                <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               </first_editor>
               <second_editor />
             </state>
@@ -102,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sendData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="976">
               <caret line="91" column="105" selection-start-line="91" selection-start-column="105" selection-end-line="91" selection-end-column="105" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -304,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544380506730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update in readMe and sendData">
+      <created>1544387745868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544387745868</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -345,7 +350,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
+    <MESSAGE value="Update in readMe and sendData" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update in readMe and sendData" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -402,20 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sendData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="91" column="105" selection-start-line="91" selection-start-column="105" selection-end-line="91" selection-end-column="105" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1544387496432" expanded="true" signature="364:958" ph="..." />
-            <marker date="1544387496432" expanded="true" signature="970:1082" ph="..." />
-            <marker date="1544387496432" expanded="true" signature="1447:2305" ph="..." />
-            <marker date="1544387496432" expanded="true" signature="2343:2548" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/extractor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -443,10 +435,24 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="552">
-            <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+          <first_editor relative-caret-position="603">
+            <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="976">
+          <caret line="91" column="105" selection-start-line="91" selection-start-column="105" selection-end-line="91" selection-end-column="105" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1544387496432" expanded="true" signature="364:958" ph="..." />
+            <marker date="1544387496432" expanded="true" signature="970:1082" ph="..." />
+            <marker date="1544387496432" expanded="true" signature="1447:2305" ph="..." />
+            <marker date="1544387496432" expanded="true" signature="2343:2548" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
