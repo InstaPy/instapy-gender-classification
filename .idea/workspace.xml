@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a01946-4c10-4b0b-8323-babdb52fad13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classify_profiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/classify_profiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sendData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +17,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Instapy_sex_classification$Unnamed.coverage" NAME="Classify Coverage Results" MODIFIED="1544379546631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Instapy_sex_classification$sendData.coverage" NAME="sendData Coverage Results" MODIFIED="1544386500462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1405537704">
@@ -29,37 +29,44 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="js" value="1" />
+          <entry key="md" value="1" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="8" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="1" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2225" />
-          <entry key="txt" value="7" />
+          <entry key="md" value="316" />
+          <entry key="py" value="4403" />
+          <entry key="sendData" value="74" />
+          <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="2225" />
+          <entry key="Markdown" value="316" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="4477" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classify_profiles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="41">
+              <caret line="48" column="22" selection-start-line="34" selection-start-column="4" selection-end-line="48" selection-end-column="22" />
               <folding>
                 <element signature="e#85#96#0" expanded="true" />
                 <marker date="1544379920969" expanded="true" signature="853:946" ph="..." />
@@ -71,13 +78,41 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="552">
+                <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/extractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="75" column="64" lean-forward="true" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
+            <state relative-caret-position="254">
+              <caret line="76" column="55" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="55" />
               <folding>
                 <element signature="e#66#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sendData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="91" column="105" selection-start-line="91" selection-start-column="105" selection-end-line="91" selection-end-column="105" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1544387496432" expanded="true" signature="364:958" ph="..." />
+                <marker date="1544387496432" expanded="true" signature="970:1082" ph="..." />
+                <marker date="1544387496432" expanded="true" signature="1447:2305" ph="..." />
+                <marker date="1544387496432" expanded="true" signature="2343:2548" ph="..." />
               </folding>
             </state>
           </provider>
@@ -94,6 +129,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>usern</find>
@@ -105,8 +147,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/util/extractor.py" />
         <option value="$PROJECT_DIR$/classify_profiles.py" />
+        <option value="$PROJECT_DIR$/util/extractor.py" />
+        <option value="$PROJECT_DIR$/sendData.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -117,10 +161,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="349" />
-    <option name="width" value="1296" />
-    <option name="height" value="696" />
+    <option name="x" value="520" />
+    <option name="y" value="-8" />
+    <option name="width" value="864" />
+    <option name="height" value="654" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -147,8 +191,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value=":&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/classify_profiles.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sendData.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -170,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.sendData">
     <configuration name="Classify" type="PythonConfigurationType" factoryName="Python">
       <module name="Instapy-sex-classification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,6 +257,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sendData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Instapy-sex-classification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sendData.py" />
+      <option name="PARAMETERS" value="fun good car shoes nature" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Classify" />
+      <item itemvalue="Python.sendData" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sendData" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -224,20 +297,28 @@
       <option name="presentableId" value="Default" />
       <updated>1544364130422</updated>
     </task>
+    <task id="LOCAL-00001" summary="bug fix">
+      <created>1544380506730</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544380506730</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="349" width="1296" height="696" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37944984" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" sideWeight="0.49946696" visible="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Run Dashboard" sideWeight="0.49946696" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.20043337" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32936078" />
@@ -261,6 +342,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -310,10 +395,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/coverage/htmlfiles/jquery.tablesorter.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12494" selection-start-line="1" selection-start-column="12494" selection-end-line="1" selection-end-column="12494" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="91" column="105" selection-start-line="91" selection-start-column="105" selection-end-line="91" selection-end-column="105" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1544387496432" expanded="true" signature="364:958" ph="..." />
+            <marker date="1544387496432" expanded="true" signature="970:1082" ph="..." />
+            <marker date="1544387496432" expanded="true" signature="1447:2305" ph="..." />
+            <marker date="1544387496432" expanded="true" signature="2343:2548" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/util/extractor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="75" column="64" lean-forward="true" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
+        <state relative-caret-position="254">
+          <caret line="76" column="55" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="55" />
           <folding>
             <element signature="e#66#94#0" expanded="true" />
           </folding>
@@ -322,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classify_profiles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="41">
+          <caret line="48" column="22" selection-start-line="34" selection-start-column="4" selection-end-line="48" selection-end-column="22" />
           <folding>
             <element signature="e#85#96#0" expanded="true" />
             <marker date="1544379920969" expanded="true" signature="853:946" ph="..." />
@@ -331,6 +437,16 @@
             <marker date="1544379920969" expanded="true" signature="1612:1698" ph="..." />
             <marker date="1544379920969" expanded="true" signature="1732:1817" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="552">
+            <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
