@@ -44,6 +44,13 @@ I came across a bike shop. This definitely is profile that should be classified 
 ### Contributing your classifications
 Your gathered data is important! This is the key outcome of this tool which will help us build a AI model that can predict the sex of a person based on it's profile page.
 
+**If you have a gmail account** you can run:
+```bash
+python sendData.py
+```
+To speed up the process, type your email and password in the file sendData.py
+
+If you **do not** have a gmail account:  
 The content of the `logs` folder represents the by you classified profiles.
 Please send me an email to contact.timgrossmann@gmail.com with all of the json files you have in your `logs` folder.
 
