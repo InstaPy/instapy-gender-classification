@@ -56,13 +56,13 @@ def extract_information(browser, username):
 
         if windows_os:
             import msvcrt
-            print('Please enter sex:', end="", flush=True)
-            sex = msvcrt.getwch()
+            print('Please enter gender:', end="", flush=True)
+            gender = msvcrt.getwch()
             print('')
         else:
-            sex = input('Please enter sex:')
+            gender = input('Please enter gender:')
             print('')
-        # print(sex)
+        # print(gender)
 
         profile = getUserData('graphql', browser)
 
@@ -84,7 +84,7 @@ def extract_information(browser, username):
                 'num_of_comments': node['node']['edge_media_to_comment']['count'],
                 'num_of_likes': node['node']['edge_liked_by']['count']
             } for node in nodes],
-            'sex': sex
+            'gender': gender
         }
 
         return information
