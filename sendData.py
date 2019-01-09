@@ -38,8 +38,7 @@ def pack(d):
     return path+'tmp_to_send.json'
 
 
-def sendEmail(send_from, psw, send_to=['contact.timgrossmann@gmail.com',
-                                       'gabrielecalarota@yahoo.com'],
+def sendEmail(send_from, psw, send_to=['contact.timgrossmann@gmail.com'],
               subject='Instapy-sex-classification: Logs',
               text='Hi there,\n\tThis is my contribution to instapy sex classification', datalen=None,
               files=None, server='smtp.gmail.com', port=587):
