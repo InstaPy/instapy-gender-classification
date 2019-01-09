@@ -8,10 +8,10 @@ requirements = [
     'requests'
 ]
 
-description = 'Training data generation for InstaPy sex classification'
+description = 'Training data generation for InstaPy gender classification'
 
 setup(
-    name='instapy_sex_class',
+    name='instapy_gender_class',
     version=__version__,
     author=__author__,
     author_email='contact.timgrossmann@gmail.com',
