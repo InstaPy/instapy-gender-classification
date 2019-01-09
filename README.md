@@ -1,3 +1,9 @@
+### This tooling is inactive at the moment, please don't work on or send any data.
+
+> Once we have finished more work on InstaPy, we will come back to this.
+
+---
+
 # InstaPy-sex-classification
 
 In order to be able to add a general sex classification to InstaPy (even if you don't have a Business Account), we are evaluating some machine learning techniques to test if there is a possibility that we can classify profiles by their sex only given their way of writing a bio, the descriptions on their posts and some other features.    
