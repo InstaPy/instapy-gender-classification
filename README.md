@@ -41,7 +41,7 @@ There are 3 classes:
 - `m` (male)
 - `f` (female)
 - `x` (third gender)
-- `- (none - company, products etc.)
+- `-` (none - company, products etc.)
 
 When the script asks you to enter the gender of the profile, choose one of the above mentioned letters.
 
